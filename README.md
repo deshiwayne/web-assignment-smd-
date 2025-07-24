@@ -2,4 +2,4 @@ Hello guys here is our assignment for web-dev course where tried to build a land
 What we will use:
 1.Html
 2.CSS
-3.Bootstrao (framework)-which i dont prefer for modern days
+3.Bootstrao (framework)-which i dont prefer for modern days.
