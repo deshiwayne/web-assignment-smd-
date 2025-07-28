@@ -13,243 +13,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&play=swap" rel="stylesheet">
-  <style>
-    .lobster-regular {
-  font-family: "Lobster", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-    body {
-      background-color: #f2f4fc;
-       font-family: 'Segoe UI', sans-serif;
-    }
-    .text-custom{
-         font-family: Arial, sans-serif
-    }
-    .hero {
-      background-color: #d6f0f5;
-      padding: 40px 20px;
-      border-radius: 20px;
-      margin-bottom: 40px;
-    }
-    .hero img {
-      max-width: 100%;
-      border-radius: 20px;
-    }
-    .category-icons img {
-      width: 50px;
-      height: 50px;
-      object-fit: cover;
-    }
-     .recipe-card {
-      border-radius: 20px;
-      overflow: hidden;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease-in-out;
-    }
-    .recipe-card:hover {
-      transform: scale(1.02);
-    }
-    .recipe-img {
-      height: 180px;
-      object-fit: cover;
-    }
-    .heart-icon {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      background: white;
-      border-radius: 50%;
-      padding: 6px 8px;
-      font-size: 16px;
-      color: red;
-    }
-    .recipe-meta i {
-      margin-right: 5px;
-      color: #666;
-    }
-
-    .category-breakfast {
-  background-color: #fff3cd; 
-}
-
-.category-vegan {
-  background-color: #d4edda; 
-}
-
-.category-meat {
-  background-color: #f8d7da; 
-}
-
-.category-dessert {
-  background-color: #fcefee; 
-}
-
-.category-lunch {
-  background-color: #e0f7fa; }
-
-.category-chocolates {
-  background-color: #ede7f6;
-}
-
-.category-box {
-  padding: 1rem;
-  border-radius: 1rem;
-  width: 120px;
-}
-
- .promo-card {
-      background-color: #1c4231;
-      border-radius: 12px;
-      color: white;
-      padding: 2rem 1rem;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .promo-card img {
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-      border-radius: 50%;
-      margin-top: 1rem;
-    }
-    .hero-section {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 60px 15px;
-    }
-
-    .chef-image {
-      position: relative;
-      z-index: 1;
-    }
-
-    .floating-icon {
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      z-index: 2;
-    }
-
-    .icon-1 { top: 10%; left: 30%; }
-    .icon-2 { top: 20%; right: 25%; }
-    .icon-3 { bottom: 20%; left: 35%; }
-    .icon-4 { bottom: 30%; right: 20%; }
-
-    .btn-dark {
-      border-radius: 12px;
-      padding: 10px 24px;
-    }
-
-    .custom-container {
-      background-color: #e6f0fa;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    .instagram-post {
-      border: 2px solid #007bff;
-      border-radius: 10px;
-      overflow: hidden;
-      margin: 10px;
-    }
-    .instagram-post img {
-      width: 100%;
-      height: 200px;
-      border-radius: 8px;
-      object-fit: cover;
-    }
-    .visit-btn {
-      background-color: #000;
-      color: #fff;
-      padding: 10px 30px;
-      border-radius: 25px;
-      text-decoration: none;
-      font-weight: bold;
-      ;
-    }
-    .visit-btn:hover {
-      background-color: #333;
-    }
-    .recipe-header{
-      padding: 38px 15px;
-    }
+  <link rel="stylesheet" href="style.css">
 
 
-    .recipe-card{
-      border-radius: 13px;
-      overflow: hidden;
-      background-color: #fff;
-      box-shadow: 0 1px 8px rgba(0,0,0,0.05);
-      transition: transform 0.2s ease;
-    }
-
-    .recipe-card:hover {
-      transform: translateY(-3px);
-    }
-    
-    .recipe-img{
-      height: 180px;
-      object-fit:  cover;
-    }
-
-    .recipe-body{
-      padding :15px
-    }
-
-    .recipe-body h6{
-      font-size: 15px;
-      font-weight: bold;
-    }
-
-    .recipe-meta{
-      font-size: 12px;
-      color: #666;
-      display: flex;
-      gap: 13px;
-      margin-top: 7px;
-    }
-
-    .recipe-meta i {
-      margin-right: 3px;
-      color: #333;
-    }
-
-    .heart-icon {
-      position: absolute;
-      top:10px;
-      right:10px;
-      background: #fff;
-      border-radius: 50%;
-      padding: 6x;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-      z-index: 10;
-      font-size: 16x;
-      color: #f44336;
-    }
-    .footer-section{
-      font-family: 'Inter', sans-serif;
-      font-style: normal;
-      font-weight:bold;
-      font-size: 16px;
-    } 
-   
-  </style>
 </head>
 <body>
  <nav class="navbar navbar-expand-lg navbar-white bg-white shadow-sm text-custom fw-bold">
   <div class="container">
     <a class="navbar-brand fw-bold" href="#">Foodieland</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="buttaon" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></spn>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -259,7 +33,7 @@
         <li class="nav-item"><a class="nav-link" href="#">Recipes</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" onclick="location.href='index2.html'" >About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="location.href='aboutus.html'" >About Us</a></li>
       </ul>
 
       <!-- Social icons aligned right -->
@@ -276,7 +50,7 @@
 
   
  <!-- Hero Section -->
-<div class="row hero align-items-stretch mb-5">
+<div class="row hero  mb-5">
   <!-- Left Content -->
   <div class="col-md-6 d-flex flex-column justify-content-between p-4">
     <div>
@@ -297,17 +71,15 @@
     </div>
 
     <!-- Author + Date at the very bottom -->
-    <div class="text-muted mt-4">
-      <div class="d-flex align-items-center">
-         <i class="bi bi-person-circle me-2"></i>
-
-        <div>
-             
-          <div>John Smith</div>
-          <div class="small"><i class="bi bi-clock me-1"></i>10 March 2022</div>
-        </div>
-      </div>
-    </div>
+   <div class="d-flex align-items-center p-3">
+  <div class="me-3">
+    <img src="images/john-smith (1).png" alt="John Smith" class="img-fluid rounded-circle" style="width: 60px;">
+  </div>
+  <div class="">
+    <p class="fw-bold mb-0 ms-1">John Smith</p>
+    <p class="text-muted mb-0 ms-1">15 March 2022</p>
+  </div>
+</div>
   </div>
 
   <!-- Right Image with Button -->
@@ -545,41 +317,32 @@
 
 
     <!-- instagram post section -->
- <div class="custom-container">
+ <div class="custom-container img-fluid ">
     <h1 class="mb-4 text-custom">Check out @foodieland on Instagram</h1>
     <p class="mb-5 text-custom">Check out our instagram page for our foods and also follow our page</p>
     <div class="row">
       <div class="col-md-3">
-        <div class="instagram-post">
+        <div class="instagram-post ">
           <img src="images/salad-3.png" alt="Vegetable Dish">
-          <div class="p-2">
-            <p>Liked by craig_jove and 44,686 others<br>Foodieland. The vegetables dishes need to have certain vitamin for those people<br>September 19</p>
-          </div>
+          
         </div>
       </div>
       <div class="col-md-3">
         <div class="instagram-post">
           <img src="images/pancake-3.png" alt="Pancake Dish">
-          <div class="p-2">
-            <p>Liked by craig_jove and 44,686 others Foodieland. Sweet treats bring joy when enjoyed in moderation
-            September 19</p>
-          </div>
+         
         </div>
       </div>
       <div class="col-md-3">
         <div class="instagram-post">
           <img src="images/onions-2.png" alt="Vegetable Cutting">
-          <div class="p-2">
-            <p>Liked by craig_jove and 44,686 others<br>Foodieland. What are you doing before start cooking?<br>September 19</p>
-          </div>
+          
         </div>
       </div>
       <div class="col-md-3">
         <div class="instagram-post">
           <img src="images/steak-2.png" alt="Steak Dish">
-          <div class="p-2">
-            <p>Liked by craig_jove and 44,686 others<br>Foodieland. Steak never be wrong. It's suitable for you who want romantic dinner<br>September 19</p>
-          </div>
+          
         </div>
       </div>
     </div>
