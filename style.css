@@ -1,0 +1,230 @@
+<style>
+    .lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    body {
+      background-color: #f2f4fc;
+       font-family: 'Segoe UI', sans-serif;
+    }
+    .text-custom{
+         font-family: Arial, sans-serif
+    }
+    .hero {
+      background-color: #d6f0f5;
+      padding: 40px 20px;
+      border-radius: 20px;
+      margin-bottom: 40px;
+    }
+    .hero img {
+      max-width: 100%;
+      border-radius: 20px;
+      
+      
+    }
+    .category-icons img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+    }
+     .recipe-card {
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+    .recipe-card:hover {
+      transform: scale(1.02);
+    }
+    .recipe-img {
+      height: 180px;
+      object-fit: cover;
+    }
+    .heart-icon {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: white;
+      border-radius: 50%;
+      padding: 6px 8px;
+      font-size: 16px;
+      color: red;
+    }
+    .recipe-meta i {
+      margin-right: 5px;
+      color: #666;
+    }
+
+    .category-breakfast {
+  background-color: #fff3cd; 
+}
+
+.category-vegan {
+  background-color: #d4edda; 
+}
+
+.category-meat {
+  background-color: #f8d7da; 
+}
+
+.category-dessert {
+  background-color: #fcefee; 
+}
+
+.category-lunch {
+  background-color: #e0f7fa; }
+
+.category-chocolates {
+  background-color: #ede7f6;
+}
+
+.category-box {
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 120px;
+}
+
+ .promo-card {
+      background-color: #1c4231;
+      border-radius: 12px;
+      color: white;
+      padding: 2rem 1rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .promo-card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-top: 1rem;
+    }
+    .hero-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 15px;
+    }
+
+    .chef-image {
+      position: relative;
+      z-index: 1;
+    }
+
+    .floating-icon {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      z-index: 2;
+    }
+
+    .icon-1 { top: 10%; left: 30%; }
+    .icon-2 { top: 20%; right: 25%; }
+    .icon-3 { bottom: 20%; left: 35%; }
+    .icon-4 { bottom: 30%; right: 20%; }
+
+    .btn-dark {
+      border-radius: 12px;
+      padding: 10px 24px;
+    }
+
+    .custom-container {
+      background-color: #e6f0fa;
+      padding: 40px 20px ;
+      text-align: center;
+    }
+    .instagram-post {
+      /* border: 1px solid #007bff; */
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 10px;
+    }
+    .instagram-post img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .visit-btn {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 30px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      ;
+    }
+    .visit-btn:hover {
+      background-color: #333;
+    }
+    .recipe-header{
+      padding: 38px 15px;
+    }
+
+
+    .recipe-card{
+      border-radius: 13px;
+      overflow: hidden;
+      background-color: #fff;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .recipe-card:hover {
+      transform: translateY(-3px);
+    }
+    
+    .recipe-img{
+      height: 180px;
+      object-fit:  cover;
+    }
+
+    .recipe-body{
+      padding :15px
+    }
+
+    .recipe-body h6{
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .recipe-meta{
+      font-size: 12px;
+      color: #666;
+      display: flex;
+      gap: 13px;
+      margin-top: 7px;
+    }
+
+    .recipe-meta i {
+      margin-right: 3px;
+      color: #333;
+    }
+
+    .heart-icon {
+      position: absolute;
+      top:10px;
+      right:10px;
+      background: #fff;
+      border-radius: 50%;
+      padding: 6x;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      z-index: 10;
+      font-size: 16x;
+      color: #f44336;
+    }
+    .footer-section{
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight:bold;
+      font-size: 16px;
+    } 
+   
+  </style>
